@@ -24,7 +24,6 @@ function showTodo(){
     taskBox.innerHTML = li;
 }  
 showTodo();
-
 taskInput.addEventListener("keyup", e =>{
     let userTask = taskInput.value.trim();
     if(e.key == "Enter" && userTask) {
